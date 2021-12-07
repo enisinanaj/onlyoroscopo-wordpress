@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes
+Allow: /wp-admin/admin-ajax.php
+Allow: *.js$ 
+Allow: *.css$
+Allow: *.js?$
+Allow: *.css?$
+
+Sitemap: https://onlyoroscopo.com/sitemap_index.xml

@@ -1,0 +1,237 @@
+{
+    "RPT": {
+        "ScanTime": "0.396 sec.",
+        "ScanFile": "20210205_onlyoroscopo_92f6b35f69b162682166_20210205160936_scan.json",
+        "ScanCreated": "2021-02-05 16:09:38",
+        "ScanPath": "\/var\/www\/new.onlyoroscopo.com\/wp-content\/backups-dup-pro\/tmp\/20210205_onlyoroscopo_92f6b35f69b162682166_20210205160936_scan.json"
+    },
+    "SRV": {
+        "Brand": {
+            "LogoAttachmentExists": false,
+            "LogoCount": 0,
+            "LogoFinded": 0,
+            "LogoImageExists": true,
+            "LogoImages": [],
+            "Name": "Default",
+            "Notes": "The default content used when a brand is not defined"
+        },
+        "HOST": [],
+        "PHP": {
+            "websrv": true,
+            "openbase": true,
+            "maxtime": true,
+            "openssl": true,
+            "mysqli": true,
+            "allowurlfopen": true,
+            "curlavailable": true,
+            "version": true,
+            "ALL": "Good"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ismuplus": true,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "Size": "337.07MB",
+        "DirCount": "1,470",
+        "FileCount": "8,401",
+        "FullCount": "9,871",
+        "USize": 353446270,
+        "UDirCount": 1470,
+        "UFileCount": 8401,
+        "UFullCount": 9871,
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "\/var\/www\/new.onlyoroscopo.com\/.opcache",
+            "\/var\/www\/new.onlyoroscopo.com\/.tmb",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/ai1wm-backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/backups-dup-pro",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/backups-dup-pro",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/backupwordpress",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/cache",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/content\/cache",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/contents\/cache",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/infinitewp\/backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/managewp\/backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/old-cache",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/plugins\/really-simple-captcha\/tmp",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/plugins\/wordfence\/tmp",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/updraft",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/aiowps_backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/backup-guard",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/backupbuddy_backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/backupbuddy_temp",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/mainwp\/backup",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/pb_backupbuddy",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/snapshots",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/sucuri",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/wp-clone",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/wp_all_backup",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/uploads\/wpbackitup_backups",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/wfcache",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-content\/wishlist-backup",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            ".DS_Store",
+            "\/var\/www\/new.onlyoroscopo.com\/.htaccess",
+            "\/var\/www\/new.onlyoroscopo.com\/wp-config.php",
+            "dbcache",
+            "debug_log",
+            "error_log",
+            "objectcache",
+            "pgcache",
+            "ws_ftp.log"
+        ],
+        "FilterExtsAll": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "Big": "Warn",
+            "AddonSites": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateFuncStatus": "Good",
+            "showCreateFunc": true
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "Size": "Warn",
+            "Rows": "Good"
+        },
+        "Size": "163.13MB",
+        "Rows": "31,533",
+        "TableCount": 19,
+        "TableList": {
+            "wp_commentmeta": {
+                "Case": 0,
+                "Rows": "534",
+                "Size": "144KB",
+                "USize": 147456
+            },
+            "wp_comments": {
+                "Case": 0,
+                "Rows": "33",
+                "Size": "96KB",
+                "USize": 98304
+            },
+            "wp_duplicator_pro_entities": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_duplicator_pro_packages": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "wp_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_options": {
+                "Case": 0,
+                "Rows": "450",
+                "Size": "3.13MB",
+                "USize": 3276800
+            },
+            "wp_postmeta": {
+                "Case": 0,
+                "Rows": "25,290",
+                "Size": "122.78MB",
+                "USize": 128745472
+            },
+            "wp_posts": {
+                "Case": 0,
+                "Rows": "2,548",
+                "Size": "35.53MB",
+                "USize": 37257216
+            },
+            "wp_term_relationships": {
+                "Case": 0,
+                "Rows": "326",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_term_taxonomy": {
+                "Case": 0,
+                "Rows": "93",
+                "Size": "96KB",
+                "USize": 98304
+            },
+            "wp_termmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_terms": {
+                "Case": 0,
+                "Rows": "93",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_usermeta": {
+                "Case": 0,
+                "Rows": "112",
+                "Size": "80KB",
+                "USize": 81920
+            },
+            "wp_users": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wp_yoast_indexable": {
+                "Case": 0,
+                "Rows": "458",
+                "Size": "432KB",
+                "USize": 442368
+            },
+            "wp_yoast_indexable_hierarchy": {
+                "Case": 0,
+                "Rows": "171",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "wp_yoast_migrations": {
+                "Case": 0,
+                "Rows": "18",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_yoast_primary_term": {
+                "Case": 0,
+                "Rows": "110",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_yoast_seo_links": {
+                "Case": 0,
+                "Rows": "1,285",
+                "Size": "368KB",
+                "USize": 376832
+            }
+        }
+    },
+    "Status": 1
+}

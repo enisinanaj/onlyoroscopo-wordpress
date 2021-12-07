@@ -1,0 +1,22 @@
+.elementor-kit-4684{--e-global-color-primary:#481EAD;--e-global-color-secondary:#073AB7;--e-global-color-text:#1A1A1A;--e-global-color-accent:#F6F4FA;--e-global-typography-primary-font-family:"Gilroy";--e-global-typography-primary-font-weight:bold;--e-global-typography-secondary-font-family:"Gilroy";--e-global-typography-secondary-font-weight:normal;--e-global-typography-text-font-family:"Gilroy";--e-global-typography-text-font-weight:normal;--e-global-typography-accent-font-family:"Gilroy";--e-global-typography-accent-font-weight:bold;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://onlyoroscopo.com/wp-content/uploads/2020/12/gilroy-extrabold-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://onlyoroscopo.com/wp-content/uploads/2020/12/gilroy-light.otf') format('truetype');
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://onlyoroscopo.com/wp-content/uploads/2020/12/gilroy-Regular.woff') format('woff');
+}
+/* End Custom Fonts CSS */

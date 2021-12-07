@@ -1,0 +1,169 @@
+0000.002 (0) Opened log file at time: Thu, 11 Nov 2021 23:00:44 +0000 on https://onlyoroscopo.com
+0000.021 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.6.6 PHP: 7.2.24-0ubuntu0.18.04.10 (fpm-fcgi, Linux onlyoroscopo.com 5.0.0-1032-azure #34-Ubuntu SMP Mon Feb 10 19:37:25 UTC 2020 x86_64) MySQL: 5.7.36-0ubuntu0.18.04.1 (max packet size=16777216) WPLANG: it_IT Server: nginx/1.14.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.6M | 2M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.030 (0) Free space on disk containing Updraft's temporary directory: 13420.7 MB
+0000.047 (0) Deleting old log file: log.9dc3d6cf12fe.txt
+0000.056 (0) Deleting old log file: log.8ab2487a72b7.txt
+0000.057 (0) Deleting old log file: log.d3b60ecd395d.txt
+0000.059 (0) Deleting old log file: log.0fbafe723f1f.txt
+0000.059 (0) Deleting old log file: log.99f5d0d167aa.txt
+0000.060 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.072 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.092 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1636066844, seconds_ago=604800)
+0000.128 (0) Set semaphore last lock (fd) time to 2021-11-11 23:00:44
+0000.136 (0) Semaphore lock (fd) complete
+0000.166 (0) Backup run: resumption=0, nonce=6aa75c293622, file_nonce=6aa75c293622 begun at=1636671644 (0s ago), job type=backup
+0000.188 (0) Scheduling a resumption (1) after 300 seconds (1636671945) in case this run gets aborted
+0000.217 (0) Checking if we have a zip executable available
+0000.234 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.242 (0) Creation of backups of directories: beginning
+0000.261 (0) No backup of plugins: excluded by user's options
+0000.272 (0) No backup of themes: excluded by user's options
+0000.280 (0) No backup of uploads: excluded by user's options
+0000.288 (0) No backup of others: excluded by user's options
+0000.338 (0) Saving backup status to database (elements: 0)
+0000.362 (0) Beginning creation of database dump (WordPress DB)
+0000.379 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.395 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.485 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1526 bytes total)
+0000.494 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.534 (0) Table wp_options: Total expected rows (approximate): 520
+0000.707 (0) Table wp_options: Rows added in this batch (next record: 38205): 525 (uncompressed bytes in this segment=2336404) in 0.16 seconds
+0000.753 (0) Table wp_options: finishing file(s) (2, 329.8 KB)
+0000.772 (0) Table wp_users: Total expected rows (approximate): 2
+0000.789 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1778) in 0.01 seconds
+0000.817 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0000.837 (0) Table wp_usermeta: Total expected rows (approximate): 127
+0000.875 (0) Table wp_usermeta: Rows added in this batch (next record: 134): 129 (uncompressed bytes in this segment=13506) in 0.03 seconds
+0000.910 (0) Table wp_usermeta: finishing file(s) (2, 4.3 KB)
+0000.930 (0) Table wp_commentmeta: Total expected rows (approximate): 534
+0000.963 (0) Table wp_commentmeta: Rows added in this batch (next record: 589): 496 (uncompressed bytes in this segment=27562) in 0.02 seconds
+0000.997 (0) Table wp_commentmeta: finishing file(s) (2, 4 KB)
+0001.018 (0) Table wp_comments: Total expected rows (approximate): 33
+0001.045 (0) Table wp_comments: Rows added in this batch (next record: 39): 32 (uncompressed bytes in this segment=13440) in 0.02 seconds
+0001.073 (0) Table wp_comments: finishing file(s) (2, 1.6 KB)
+0001.094 (0) Table wp_links: Total expected rows (approximate): 0
+0001.108 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1270) in 0.01 seconds
+0001.138 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.159 (0) Table wp_postmeta: Total expected rows (approximate): 67096
+0004.432 (0) Table wp_postmeta: binary mysqldump finished (writes: 143, bytes 115138413, return code 0) in 3.26 seconds
+0004.457 (0) Table wp_postmeta: finishing file(s) (1, 8248.5 KB)
+0004.476 (0) Table wp_posts: Total expected rows (approximate): 10021
+0005.793 (0) Table wp_posts: binary mysqldump finished (writes: 93, bytes 41867261, return code 0) in 1.31 seconds
+0005.811 (0) Table wp_posts: finishing file(s) (1, 2175.5 KB)
+0005.830 (0) Table wp_term_relationships: Total expected rows (approximate): 9660
+0005.921 (0) Table wp_term_relationships: binary mysqldump finished (writes: 30, bytes 136615, return code 0) in 0.08 seconds
+0005.940 (0) Table wp_term_relationships: finishing file(s) (1, 29.1 KB)
+0005.960 (0) Table wp_term_taxonomy: Total expected rows (approximate): 94
+0005.990 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 128): 94 (uncompressed bytes in this segment=29890) in 0.02 seconds
+0006.026 (0) Table wp_term_taxonomy: finishing file(s) (2, 9.8 KB)
+0006.045 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0006.078 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.02 seconds
+0006.113 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0006.136 (0) Table wp_terms: Total expected rows (approximate): 93
+0006.162 (0) Table wp_terms: Rows added in this batch (next record: 128): 94 (uncompressed bytes in this segment=5191) in 0.02 seconds
+0006.193 (0) Table wp_terms: finishing file(s) (2, 1.4 KB)
+0006.218 (0) Table wp_duplicator_pro_entities: Total expected rows (approximate): 5
+0006.236 (0) Table wp_duplicator_pro_entities: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=5656) in 0.01 seconds
+0006.272 (0) Table wp_duplicator_pro_entities: finishing file(s) (2, 1.8 KB)
+0006.294 (0) Table wp_duplicator_pro_packages: Total expected rows (approximate): 5
+0006.326 (0) Table wp_duplicator_pro_packages: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=58278) in 0.02 seconds
+0006.363 (0) Table wp_duplicator_pro_packages: finishing file(s) (2, 6.3 KB)
+0006.382 (0) Table wp_e_submissions: Total expected rows (approximate): 0
+0006.398 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2282) in 0.01 seconds
+0006.424 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0006.444 (0) Table wp_e_submissions_actions_log: Total expected rows (approximate): 0
+0006.458 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1251) in 0.01 seconds
+0006.487 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0006.505 (0) Table wp_e_submissions_values: Total expected rows (approximate): 0
+0006.534 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.02 seconds
+0006.569 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0006.591 (0) Table wp_redirection_404: Total expected rows (approximate): 11158
+0006.831 (0) Table wp_redirection_404: binary mysqldump finished (writes: 42, bytes 4151150, return code 0) in 0.23 seconds
+0006.855 (0) Table wp_redirection_404: finishing file(s) (1, 408.8 KB)
+0006.875 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0006.891 (0) Table wp_redirection_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=981) in 0.01 seconds
+0006.917 (0) Table wp_redirection_groups: finishing file(s) (2, 0.5 KB)
+0006.943 (0) Table wp_redirection_items: Total expected rows (approximate): 319
+0006.969 (0) Table wp_redirection_items: Rows added in this batch (next record: 324): 323 (uncompressed bytes in this segment=70488) in 0.02 seconds
+0007.002 (0) Table wp_redirection_items: finishing file(s) (2, 8 KB)
+0007.029 (0) Table wp_redirection_logs: Total expected rows (approximate): 602
+0007.059 (0) Table wp_redirection_logs: Rows added in this batch (next record: 23154): 597 (uncompressed bytes in this segment=208772) in 0.02 seconds
+0007.089 (0) Table wp_redirection_logs: finishing file(s) (2, 17.9 KB)
+0007.109 (0) Table wp_yoast_indexable: Total expected rows (approximate): 4286
+0007.398 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 5378): 4861 (uncompressed bytes in this segment=4821962) in 0.28 seconds
+0007.440 (0) Table wp_yoast_indexable: finishing file(s) (2, 297.7 KB)
+0007.462 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 1064
+0007.485 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 2000): 1064 (uncompressed bytes in this segment=20041) in 0.01 seconds
+0007.510 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 3.5 KB)
+0007.530 (0) Table wp_yoast_migrations: Total expected rows (approximate): 18
+0007.547 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1143) in 0.01 seconds
+0007.572 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0007.591 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 969
+0007.620 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 1067): 1028 (uncompressed bytes in this segment=83038) in 0.02 seconds
+0007.647 (0) Table wp_yoast_primary_term: finishing file(s) (2, 15.3 KB)
+0007.667 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 38531
+0007.925 (0) Table wp_yoast_seo_links: binary mysqldump finished (writes: 44, bytes 4314487, return code 0) in 0.25 seconds
+0007.945 (0) Table wp_yoast_seo_links: finishing file(s) (1, 479.9 KB)
+0007.968 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_options.table.tmpr38206.gz (1/26/fopen): adding to final database dump
+0007.982 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_options.table.gz (2/26/fopen): adding to final database dump
+0007.992 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_users.table.tmpr4.gz (3/26/fopen): adding to final database dump
+0008.001 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_users.table.gz (4/26/fopen): adding to final database dump
+0008.010 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_usermeta.table.tmpr135.gz (5/26/fopen): adding to final database dump
+0008.019 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_usermeta.table.gz (6/26/fopen): adding to final database dump
+0008.028 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_commentmeta.table.tmpr590.gz (7/26/fopen): adding to final database dump
+0008.036 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_commentmeta.table.gz (8/26/fopen): adding to final database dump
+0008.045 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_comments.table.tmpr40.gz (9/26/fopen): adding to final database dump
+0008.054 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_comments.table.gz (10/26/fopen): adding to final database dump
+0008.064 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_links.table.tmpr0.gz (11/26/fopen): adding to final database dump
+0008.073 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_links.table.gz (12/26/fopen): adding to final database dump
+0008.081 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_postmeta.table.gz (13/26/fopen): adding to final database dump
+0008.201 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_posts.table.gz (14/26/fopen): adding to final database dump
+0008.240 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_term_relationships.table.gz (15/26/fopen): adding to final database dump
+0008.251 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_term_taxonomy.table.tmpr129.gz (16/26/fopen): adding to final database dump
+0008.260 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_term_taxonomy.table.gz (17/26/fopen): adding to final database dump
+0008.269 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_termmeta.table.tmpr0.gz (18/26/fopen): adding to final database dump
+0008.277 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_termmeta.table.gz (19/26/fopen): adding to final database dump
+0008.286 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_terms.table.tmpr129.gz (20/26/fopen): adding to final database dump
+0008.294 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_terms.table.gz (21/26/fopen): adding to final database dump
+0008.303 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_duplicator_pro_entities.table.tmpr6.gz (22/26/fopen): adding to final database dump
+0008.312 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_duplicator_pro_entities.table.gz (23/26/fopen): adding to final database dump
+0008.321 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_duplicator_pro_packages.table.tmpr7.gz (24/26/fopen): adding to final database dump
+0008.330 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_duplicator_pro_packages.table.gz (25/26/fopen): adding to final database dump
+0008.339 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_e_submissions.table.tmpr0.gz (26/26/fopen): adding to final database dump
+0008.348 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_e_submissions.table.gz (27/26/fopen): adding to final database dump
+0008.360 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (28/26/fopen): adding to final database dump
+0008.372 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_e_submissions_actions_log.table.gz (29/26/fopen): adding to final database dump
+0008.381 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_e_submissions_values.table.tmpr0.gz (30/26/fopen): adding to final database dump
+0008.390 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_e_submissions_values.table.gz (31/26/fopen): adding to final database dump
+0008.399 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_404.table.gz (32/26/fopen): adding to final database dump
+0008.413 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_groups.table.tmpr3.gz (33/26/fopen): adding to final database dump
+0008.423 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_groups.table.gz (34/26/fopen): adding to final database dump
+0008.431 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_items.table.tmpr325.gz (35/26/fopen): adding to final database dump
+0008.440 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_items.table.gz (36/26/fopen): adding to final database dump
+0008.449 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_logs.table.tmpr23155.gz (37/26/fopen): adding to final database dump
+0008.458 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_redirection_logs.table.gz (38/26/fopen): adding to final database dump
+0008.467 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_indexable.table.tmpr5379.gz (39/26/fopen): adding to final database dump
+0008.479 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_indexable.table.gz (40/26/fopen): adding to final database dump
+0008.489 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_indexable_hierarchy.table.tmpr2001.gz (41/26/fopen): adding to final database dump
+0008.498 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_indexable_hierarchy.table.gz (42/26/fopen): adding to final database dump
+0008.506 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_migrations.table.tmpr22.gz (43/26/fopen): adding to final database dump
+0008.515 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_migrations.table.gz (44/26/fopen): adding to final database dump
+0008.524 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_primary_term.table.tmpr1068.gz (45/26/fopen): adding to final database dump
+0008.533 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_primary_term.table.gz (46/26/fopen): adding to final database dump
+0008.542 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db-table-wp_yoast_seo_links.table.gz (47/26/fopen): adding to final database dump
+0008.565 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db.gz: finished writing out complete database file (12048.1 KB)
+0008.739 (0) Total database tables backed up: 26 (backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db.gz, size: 12337338, sha1: c6cb9c8bdde41fbb4b6ce46ebeb65d5411ed312e, sha256: dccb380b39435d8210297962f0eb1d279deb5fcc2285e48ab1694ab446e52d0a)
+0008.783 (0) backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.799 (0) Saving backup history. Total backup size: 11.8 MB
+0008.826 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0008.854 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.864 (0) No remote despatch: user chose no remote backup service
+0008.874 (0) Recording as successfully uploaded: backup_2021-11-12-0000_Only_Oroscopo_6aa75c293622-db.gz
+0008.894 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0008.903 (0) Resume backup (6aa75c293622, 0): finish run
+0008.936 (0) Decremented the semaphore (fd) by 1
+0008.953 (0) Semaphore (fd) unlocked
+0008.965 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.997 (0) The backup apparently succeeded and is now complete
+0009.005 (0) No email will/can be sent - the user has not configured an email address.
+0009.015 (0) Il backup apparentemente è riuscito ed ora è completo

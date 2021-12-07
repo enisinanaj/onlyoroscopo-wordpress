@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="338" height="217" viewBox="0 0 338 217">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0b3db8"/>
+      <stop offset="1" stop-color="#54d4a7"/>
+    </linearGradient>
+    <filter id="Rettangolo_172" x="0" y="0" width="338" height="217" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#898989" flood-opacity="0.153"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Classifiche" transform="translate(-9.5 -1875.5)">
+    <g transform="matrix(1, 0, 0, 1, 9.5, 1875.5)" filter="url(#Rettangolo_172)">
+      <rect id="Rettangolo_172-2" data-name="Rettangolo 172" width="293" height="172" rx="5" transform="translate(19.5 19.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="Classifiche-2" data-name="Classifiche" transform="translate(57 1946)" fill="#fff" font-size="31" font-family="Helvetica"><tspan x="0" y="0">Classifiche</tspan></text>
+  </g>
+</svg>

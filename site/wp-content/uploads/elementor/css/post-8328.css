@@ -1,0 +1,22 @@
+.elementor-8328 .elementor-element.elementor-element-d4dccb9 > .elementor-container{max-width:750px;min-height:40vh;}.elementor-8328 .elementor-element.elementor-element-d4dccb9 > .elementor-background-overlay{opacity:0.2;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8328 .elementor-element.elementor-element-d4dccb9, .elementor-8328 .elementor-element.elementor-element-d4dccb9 > .elementor-background-overlay{border-radius:0px 0px 60px 0px;}.elementor-8328 .elementor-element.elementor-element-d4dccb9{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:-80px;margin-bottom:40px;padding:60px 0px 0px 0px;}.elementor-8328 .elementor-element.elementor-element-ff01015 .elementor-heading-title{color:#FFFFFF;font-family:"Gilroy", Sans-serif;font-weight:400;}@media(max-width:1024px){.elementor-8328 .elementor-element.elementor-element-d4dccb9 > .elementor-container{min-height:32vh;}}@media(max-width:767px){.elementor-8328 .elementor-element.elementor-element-d4dccb9 > .elementor-container{min-height:100vw;}.elementor-8328 .elementor-element.elementor-element-d4dccb9, .elementor-8328 .elementor-element.elementor-element-d4dccb9 > .elementor-background-overlay{border-radius:0px 0px 0px 0px;}.elementor-8328 .elementor-element.elementor-element-d4dccb9{margin-top:-80px;margin-bottom:-80px;padding:0px 0px 0px 0px;}.elementor-8328 .elementor-element.elementor-element-8244c83 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:10px;}.elementor-8328 .elementor-element.elementor-element-8244c83 > .elementor-element-populated{margin:0% 0% 0% 0%;padding:0px 0px 0px 0px;}.elementor-8328 .elementor-element.elementor-element-ff01015 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://onlyoroscopo.com/wp-content/uploads/2020/12/gilroy-extrabold-webfont.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://onlyoroscopo.com/wp-content/uploads/2020/12/gilroy-light.otf') format('truetype');
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://onlyoroscopo.com/wp-content/uploads/2020/12/gilroy-Regular.woff') format('woff');
+}
+/* End Custom Fonts CSS */

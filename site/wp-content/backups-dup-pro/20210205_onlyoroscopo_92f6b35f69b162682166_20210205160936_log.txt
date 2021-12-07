@@ -1,0 +1,22 @@
+
+
+====================================================================
+!RUNTIME ERROR!
+---------------------------------------------------------------------
+MESSAGE:
+Communication to AJAX is blocked.  **RECOMMENDATION: See FAQ: <a href='http://snapcreek.com/duplicator/docs/faqs-tech/#faq-package-100-q' target='_blank'>Why is the package build stuck at 5%?</a>.
+DETAILS:
+Communication to AJAX is blocked.  **RECOMMENDATION: See FAQ: <a href='http://snapcreek.com/duplicator/docs/faqs-tech/#faq-package-100-q' target='_blank'>Why is the package build stuck at 5%?</a>.
+---------------------------------------------------------------------
+TRACE:
+1. class.pack.runner.php : error (319)
+2. class.pack.runner.php : cancel_long_running (92)
+3. duplicator-pro.php : init (95)
+4. wp-settings.php : include_once (388)
+5. wp-config.php : require_once (93)
+6. wp-load.php : require_once (37)
+7. wp-blog-header.php : require_once (13)
+8. index.php : require (17)
+====================================================================
+
+
